@@ -1,0 +1,42 @@
+html{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    background-color: rgb(26, 26, 26);
+}
+
+h1{
+    font-size: 20px;
+    color: rgb(209, 0, 0);
+    src:url(Imperial.ttf);
+}
+.Logo{
+    background-color: rgb(12, 12, 12);
+    padding:4px;
+}
+#yt{
+    position: fixed;
+    right: 300px;
+    top: 56px;   
+}
+#livro {
+    position: fixed;
+    right: 40px;
+    top: 60px;
+  }
+
+.final{
+    right: 0%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: yellow;
+    background-color: rgb(126, 0, 0);
+    padding: 1px;
+    bottom: 0;
+    font-size: 12px;
+}
+
