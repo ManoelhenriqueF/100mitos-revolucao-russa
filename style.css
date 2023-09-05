@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Imperial.ttf);
+}
+
 html{
     background-image: url('background.png');
     background-repeat: no-repeat;
@@ -11,7 +16,7 @@ html{
 h1{
     font-size: 20px;
     color: rgb(209, 0, 0);
-    src:url(Imperial.ttf);
+    font-family: myFirstFont;
 }
 .Logo{
     background-color: rgb(12, 12, 12);
